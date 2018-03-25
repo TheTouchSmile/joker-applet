@@ -16,7 +16,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import java.util.Properties;
 
 @SpringBootApplication
-@MapperScan("top.weilitui.applet.mapper")
 @EnableTransactionManagement
 public class JokerAppletApplication {
 
