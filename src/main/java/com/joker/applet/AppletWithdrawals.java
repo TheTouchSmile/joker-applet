@@ -15,7 +15,6 @@ import java.util.Map;
 @Controller
 @RequestMapping("/applet")
 public class AppletWithdrawals {
-
     /**
      * 提现
      * @param money 提现金额

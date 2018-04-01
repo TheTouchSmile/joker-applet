@@ -22,7 +22,6 @@ import java.util.Map;
  */
 @Slf4j
 public class WithdrawalsUtils {
-
     /**
      * 提现方法
      * @param withdrawalsMoney 提现金额
