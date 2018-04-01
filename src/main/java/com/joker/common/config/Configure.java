@@ -26,4 +26,8 @@ public class Configure {
     public static final String PAY_URL = "https://api.mch.weixin.qq.com/pay/unifiedorder";
     //提现的接口
     public static final String WITHDRAWALS_URL = "https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers";
+    //获取菊花码生成access_token生成接口
+    public static final String WX_ACCESS_TOKEN="https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=%s&secret=%s";
+    //获取菊花码本人用的是B,传值
+    public static final String WX_CODE = "https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=%s";
 }
